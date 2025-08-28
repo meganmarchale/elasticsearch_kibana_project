@@ -50,7 +50,6 @@ class LogIndexer:
             }
         return None
 
-
     def generate_bulk_data(self):
         """Yield documents for bulk ingestion."""
         with open(self.log_file, "r", encoding="utf-8") as f:

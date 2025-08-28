@@ -22,8 +22,7 @@ if __name__ == "__main__":
 """
 Once this has run: On to the Kibana part: 
 
-# Pull the correct Kibana version
-    docker pull docker.elastic.co/kibana/kibana:8.13.4
+docker-compose up
 
 # Run Kibana
     docker run -d -p 5601:5601 -e ELASTICSEARCH_HOSTS=http://host.docker.internal:9200 --name kibana docker.elastic.co/kibana/kibana:8.13.4 cd48f5049a7288a64ee9df6ca6519748fbd6a7247d5f87795bdb6c97cc151260
