@@ -75,6 +75,7 @@ View of the first entrey log:
 # Elasticsearch & Kibana Log Analysis Project
 
 "Elasticsearch is an open source, distributed search and analytics engine built for speed, scale, and AI applications."
+"Kibana is an open-source data visualization and exploration platform that provides a user-friendly interface to interact with data stored in Elasticsearch." - https://www.elastic.co/kibana 
 
 ## Overview
 
