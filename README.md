@@ -64,7 +64,8 @@ Remote Log Name: Remote name of the User performing the request. In the majority
 
 View of the first entrey log:  
 ```/bash 
-233.223.117.90 - - [27/Dec/2037:12:00:00 +0530] "DELETE /usr/admi5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, likei/537.3.759.0" 45```
+233.223.117.90 - - [27/Dec/2037:12:00:00 +0530] "DELETE /usr/admi5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, likei/537.3.759.0" 45
+/```
 
 
 **Install requirements**
@@ -73,6 +74,7 @@ View of the first entrey log:
 
 # Elasticsearch & Kibana Log Analysis Project
 
+"Elasticsearch is an open source, distributed search and analytics engine built for speed, scale, and AI applications."
 
 ## Overview
 
