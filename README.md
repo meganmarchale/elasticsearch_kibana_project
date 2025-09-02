@@ -48,6 +48,8 @@ If you finish early or want to explore advanced features:
 The project is based on an [Apache sample](https://www.kaggle.com/datasets/vishnu0399/server-logs), downloaded from Kaggle. This is a synthetic server logs dataset based on Apache Server logs format.  
 This dataset is stored in a 'data' folder.
 
+ElasticSearch is greedy: you'll need to increase your Docker volume in order to be able to run the program. 
+
 **Components in Log Entry :**  
 - IP of client: This refers to the IP address of the client that sent the request to the server.
 Remote Log Name: Remote name of the User performing the request. In the majority of the applications, this is confidential information and is hidden or not available.  
