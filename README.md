@@ -1,42 +1,5 @@
 # elasticsearch_kibana_project
 
-
-## Project description:
-
-### 📊 Log Analysis Dashboard (Mini-ELK)
-**Dataset**: Sample [Apache](https://www.kaggle.com/datasets/vishnu0399/server-logs) or [Web Server](https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs) log files  
-
-**Must-have**  
-- Index logs with fields: timestamp, status code, IP, URL  
-- Find all errors (`status >= 400`)  
-- Search logs by URL pattern  
-
-**Nice-to-have**  
-- Aggregations: requests per status code, per hour, top IPs  
-- Visualization in [Kibana](https://www.tutorialspoint.com/kibana/index.htm) (time series or pie charts)  
-- Alerting (simulated) for error spikes  
-
-
-1 repository and your code and queries should follow **clean coding practices**:  
-- Use meaningful variable names  
-- Add docstrings to functions  
-- Organize queries in reusable functions  
-- Avoid hardcoding values unnecessarily  
-
-### 🌟 Nice-to-Have
-If you finish early or want to explore advanced features:  
-- Implement **autocomplete** for search input  
-- Use the **“did you mean”** feature for misspelled queries  
-- Add **advanced aggregations** (e.g., histograms, percentiles)  
-- Visualize results in [Kibana](https://www.tutorialspoint.com/kibana/index.htm) or a custom web UI  
-- Try **vector search** if your dataset supports embeddings for similarity queries  
-
-
-
-👉 Choose **one project idea** that excites you. Keep it simple but complete!  
-
-
-
 ## Structure of the repo
 
 
